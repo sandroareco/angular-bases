@@ -8,6 +8,7 @@ import { Character } from './../interfaces/character.interface';
 })
 
 export class DbzMainComponent {
+    
     constructor( private dbzService: DbzService ){}
 
     get characters(): Character[] {

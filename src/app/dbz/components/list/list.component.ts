@@ -10,8 +10,8 @@ export class ListComponent {
   @Input()
 
   public characterList: Character[] = [{
-    name: 'Trunks',
-    power: 10
+    name: '',
+    power:0
   }]
 
   @Output()
